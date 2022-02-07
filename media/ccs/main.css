@@ -1,0 +1,87 @@
+body{
+	font-family: 'Rubik', sans-serif;
+	line-height: 1.62em;
+}
+
+h1{
+	font-size: 1.77em;
+	font-weight: 700;
+	padding-top: 10px;
+}
+
+h2{
+	font-size: 1.33em;
+	padding-top: 10px;
+	color: #a3b8d1;
+	font-weight: 700;
+}
+
+a{
+	color: #70b5f9;
+	text-decoration: none;
+}
+a:hover{
+	color: #b6dafd;
+}
+
+.email:before {
+    content: attr(user) "\0040" attr(domain);
+}
+
+.nav-masthead .nav-link {
+	padding: .25rem 0.25rem;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.9);
+	background-color: transparent;
+	border-bottom: .25rem solid transparent;
+}
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+	border-bottom-color: rgba(255, 255, 255, 0.9);
+}
+.nav-masthead .nav-link + .nav-link {
+	margin-left: 1rem;
+}
+
+.business-card {
+	margin-bottom: 20px;
+}
+.business-card{
+	color: rgba(255, 255, 255, 0.9);
+}
+.business-card img{
+	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+.footer{
+	padding-bottom: 30px;
+	clear:both;
+}
+
+header {
+	border-bottom: 0px solid rgba(0, 0, 0, 0.2)
+}
+
+.btn-secondary{
+	background-color: #565968;
+	border-color: #565968;
+}
+
+.blog-content img{
+    margin: 20px;
+    max-width: 95%;
+    border-radius: 6px;
+}
+
+.art-page h2{
+	font-size: 28px;
+}
+
+@media (max-width: 768px) {
+	.float-end{
+	  float: none !important;
+	  display: block;
+	  margin-top: 5px;
+	  margin-bottom: 5px;
+	}
+}

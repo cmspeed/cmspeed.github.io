@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-	font-size: 1.77em;
+	font-size: 1.5em;
 	font-weight: 700;
 	padding-top: 10px;
 }
@@ -29,7 +29,8 @@ a:hover{
 }
 
 .nav-masthead .nav-link {
-	padding: .25rem 0.25rem;
+	padding: 0.25rem 0.25rem;
+	font-size:1.5em;
 	font-weight: 700;
 	color: rgba(255, 255, 255, 0.9);
 	background-color: transparent;
@@ -65,23 +66,4 @@ header {
 .btn-secondary{
 	background-color: #565968;
 	border-color: #565968;
-}
-
-.blog-content img{
-    margin: 20px;
-    max-width: 95%;
-    border-radius: 6px;
-}
-
-.art-page h2{
-	font-size: 28px;
-}
-
-@media (max-width: 768px) {
-	.float-end{
-	  float: none !important;
-	  display: block;
-	  margin-top: 5px;
-	  margin-bottom: 5px;
-	}
 }

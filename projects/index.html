@@ -44,7 +44,7 @@
   <div class="p-3 my-4 bg-secondary" style="--bs-bg-opacity: .2;">
   <h1>Research</h1>
 
-  <p>My primary interests are centered around two broad questions: How do planetary landscapes evolve? And how is this evolution preserved and reflected in the topographic and stratigraphic record? The lionshare of my research to-date focuses on fluvial landscapes, and more specifically on meandering river processes and depositional architecture.<p>
+  <p>My primary interests are centered around two broad questions: How do planetary landscapes evolve? And how is this evolution preserved and reflected in the topographic and stratigraphic record? The lionshare of my research to-date focuses on fluvial landscapes, and more specifically on meandering river processes, deposit topography, and stratigraphic architecture. My current and past field locations are shown below. More recently, a colleague in The Oden Institute for Computational Engineering and Sciences at UT-Austin, Yiran Shen and I have explored image segmentation and classification of Martian dune fields using deep learning which has produced some interesting results. <p>
 
        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1pATZTjz3UFdtMSrHWtf-ZWcc-MlDy9VD&ehbc=2E312F" width="100%" height=500></iframe>
 
@@ -52,15 +52,18 @@
 
 <div class="p-3 my-4 bg-secondary" style="--bs-bg-opacity: .2;">
 
-  <h1>THE EVOLUTION OF MEANDERING FLUVIAL LANDSCAPES</h1>
+  <h1>MORPHOLOGIC, TOPOGRAPHIC, AND STRATIGRAPHIC EVOLUTION OF MODERN  FLUVIAL LANDSCAPES</h1>
+
   <div style="text-align: center;">
   <div class="container">
     <img src="images/riverthroughtime.jpg" alt="trinity" width="49%">
     <img src="images/cutoff.gif" alt="cutoff" width="49%">
   </div> 
-</div>
+</div> 
 
-  <p> My current research focuses on characterizing the evolution of modern fluvial landscapes and their preservation in the ancient rock record using high-resolution topography, satellite imagery, stratigraphic models, and field geologic techniques. Ultimately, my work aims to predict both the evolution of rivers and the architecture of their deposits, which has applications in energy exploration and development and carbon sequestration. </p>
+  <p>Meandering rivers are among the most dynamic geomorphic features are Earth. Independently, we know quite a bit about the morphodynamics of meandering and - very generally - the types of deposits that meandering rivers leave behind as they evolve. However, our understand remains lacking when it comes to precise linkages between specific geomorphic processes and the subsequent behavior and depositional architecture that results. This uncertainty creates challenges when attempting to reconstruct a paleo-landscape from the rock record, ultimately leading to poor interpretations of past planetary surface configurations and conditions.</p>
+
+  <p>This project focuses on improving our understanding of the process of meander cutoff (the process shown above right), subsequent bend change, and the topographic and stratigraphic evolution that results. We see interesting relationships between the 'style' of cutoff that occurs and the subsequent plan-form change, as well as the depositional patterns that result. Find more about this at the links provided below.</p>
 
 <div style="text-align: left;">
     <a type="button" class="btn btn-outline-secondary" href="https://github.com/cmspeed/cutoff_analysis">Github Repo</a>
@@ -71,19 +74,23 @@
 
 <div class="p-3 my-4 bg-secondary" style="--bs-bg-opacity: .2;">
 
-  <h1>THE PRESERVATION OF ANCIENT FLUVIAL LANDSCAPES ON EARTH AND MARS</h1>
+  <h1>PRESERVATION OF FLUVIAL LANDSCAPES IN THE ANCIENT STRATIGRAPHIC RECORD</h1>
 
-<div style="text-align: center;">
+  <div style="text-align: center;">
   <div class="container">
     <img src="images/avulsion.png" alt="avulsion" width="49%">
     <img src="images/cedarmtn.jpg" alt="cedarmtn" width="49%">
   </div> 
 </div>
 
-  <p> My current research focuses on characterizing the evolution of modern fluvial landscapes and their preservation in the ancient rock record using high-resolution topography, satellite imagery, stratigraphic models, and field geologic techniques. Ultimately, my work aims to predict both the evolution of rivers and the architecture of their deposits, which has applications in energy exploration and development and carbon sequestration. </p>
+  <p>Meandering rivers are highly dynamic, and they are capable of reworking their deposits even on human timescales. Therefore, it is likely much of the ancient rock record in meandering river deposits is 'missing', but to this point it is difficult to say much more than that, because outcrops rarely have the spatial context necessary and seismic data rarely have the vertical resolution required to make these observations. However, there are several locations on Earth (and on Mars) that offer very well-preserved and regionally extensive outcrops of fluvial stratigraphy. See <a href="https://www.sciencedirect.com/science/article/pii/S001282522100060X?via%3Dihub">Zaki et al. (2020)</a> for a comprehensive list of these locations, if this is of interest to you! </p>
+
+  <p>In this project, I study one such example in the Cedar Mountain Formation, Central-Eastern Utah, USA. The exposures in this portion of the Cedar Mountain have made it of great interest to fluvial stratigraphers and geomorphologists. This study focuses on a very specific portion (above right) that we hypothesize to represent the site of an avulsion that occured during the Early Cretaceous - one of the few recognized in the ancient rock record. We use a combination of 3-D digital outcrop models, lidar-derived digital terrain models, and field data to quantify linkages between the avulsion processes and the preserved remnants left behind, which has implications for more informed interpretations of the stratigraphic record on Earth and other planetary surfaces.</p>
 
 <div style="text-align: left;">
   <a type="button" class="btn btn-outline-secondary" href="https://agu-do03.confex.com/agu/fm19/meetingapp.cgi/Paper/629642">Abstract</a>
+  <a type="button" class="btn btn-outline-secondary" href="https://opentopography.org/news/new-lidar-dataset-available-utah">Media</a>
+  <a type="button" class="btn btn-outline-secondary" href="https://portal.opentopography.org/datasetMetadata?otCollectionID=OT.052020.6341.1">Dataset</a>
   <a type="button" class="btn btn-outline-secondary" href="https://www.dropbox.com/s/i39y4n8ar4otxnx/jsg_symp_2021_cms_final_submit_ds.jpg?dl=0">Conference Presentation</a>
 </div>
 
@@ -98,7 +105,9 @@
   </div> 
 </div>
 
-  <p> My current research focuses on characterizing the evolution of modern fluvial landscapes and their preservation in the ancient rock record using high-resolution topography, satellite imagery, stratigraphic models, and field geologic techniques. Ultimately, my work aims to predict both the evolution of rivers and the architecture of their deposits, which has applications in energy exploration and development and carbon sequestration. </p>
+  <p>Image segmentation and classification has become a powerful tool used to leverage the wealth of image data that is being continuously acquired by planetary orbiters. Recently, during a course in Machine Learning, I and a colleague of mine in The Oden Institute for Computational Engineering and Sciences at UT-Austin, Yiran Shen became interested in exploring how these approaches could be applied to identify landforms on the surface of Mars. We decided to approach this problem through the use of a convolutional neural network (CNN), specifically a U-Net architecture.</p>
+
+  <p>We chose to first develop and test an approach for the identification (and ultimately classification) of Martian dune fields. We chose to do so because, in our understanding, many of the dune fields on Mars remain unmapped and understudied. Secondly, we discovered that a training dataset for our model already existed. Luckily, the <i>very</i> hard work of manually mapping dune fields had been done for us, at least in part, by the creators of the <a href="https://www.usgs.gov/centers/astrogeology-science-center/science/mars-global-digital-dune-database">Mars Global Digital Dune Database (MGD3)</a>. We trained, validated, and tested our model in the Jupyter notebook lined below.</p>
 
 <div style="text-align: left;">
   <a type="button" class="btn btn-outline-secondary" href="https://github.com/cmspeed/deepDune/">Github Repo</a>
